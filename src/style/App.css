@@ -5,13 +5,16 @@
   --tan: #dacdc4;
 }
 
+h1, h2, h3, h4{
+  color: var(--brown)
+}
 
-header{
+header {
   padding: 20px;
   position: sticky;
   top: 0;
   background-color: white;
-  box-shadow: 0px 0px 50px 0px #00000054;
+  box-shadow: 0px 0px 100px 0px #0000002b;
 }
 
 .logo{
@@ -19,9 +22,17 @@ header{
 }
 
 .social{
+  position: fixed;
+  padding: 10px 20px 10px 20px;
+  right: 20px;
+  bottom: 20px;
   display: flex;
   justify-content: flex-end;
   gap: 20px;
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 0px 0px 100px 0px #00000054;
+
 }
 
 .socialLogo{
@@ -42,18 +53,47 @@ nav{
   flex-direction: column;
 }
 
-.links{
+.navLinks{
   display: flex;
   gap: 10px;
   font-size: large;
+  text-transform: uppercase;
+}
+
+.navLink{
+  color: var(--brown);
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+  letter-spacing: 1pt;
 }
 
 main{
-  padding: 20px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  max-width: 1000px;
 }
 
 .hero{
   display: flex;
   gap: 20px;
   justify-content: center;
+}
+
+.blogsHome{
+  min-height: 200px;
+}
+
+.productsHome{
+  min-height: 200px;
+}
+
+footer{
+  background-color: var(--green);
+  color: white;
 }

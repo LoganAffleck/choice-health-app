@@ -7,13 +7,16 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: -apple-system, BlinkMacSystemFont,'Poppins', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
-  color: var(--brown)
+  color: var(--brown);
+
+
 }
 
 code {
@@ -21,7 +24,7 @@ code {
     monospace;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--green);
 }

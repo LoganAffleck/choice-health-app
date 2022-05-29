@@ -8,9 +8,6 @@ function Social(){
 
     return(
         <div className="social">
-            <div>
-                Follow us
-            </div>
 
             <a href="https://www.facebook.com/choicehealth.healthfoodstore" target="_blank" rel="noreferrer noopener">
             <Facebook alt="Facebook logo" className='socialLogo'/>

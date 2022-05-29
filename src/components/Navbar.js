@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import logoCH from '../svg/logoCH.svg';
-import Social from './Social';
 
 function Navbar() {
 
@@ -12,13 +11,12 @@ function Navbar() {
             </Link>
             
             <nav>
-                <div className="links">
-                <Link to='/products'>Products</Link>
-                <Link to='/blog'>Blog</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/contact'>Contact</Link>
+                <div className="navLinks">
+                <Link to='/products' className='navLink'>Products</Link>
+                <Link to='/blog' className='navLink'>Blog</Link>
+                <Link to='/about' className='navLink'>About</Link>
+                <Link to='/contact' className='navLink'>Contact</Link>
                 </div>
-                <Social/>
             </nav>
         </div>
     )

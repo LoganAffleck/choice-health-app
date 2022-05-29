@@ -7,7 +7,7 @@ function Hero() {
             <img src="http://choicehealthwestfield.com/wp-content/uploads/2019/03/IMG_1276-front-header.jpg" alt="The Choice Health Store." className="heroImage"/>
             <div className="heroText">
                 <h1>Choice Health</h1>
-                <p>Prevention is superior to treatment</p>
+                <p>Prevention is superior to treatment.</p>
                 <p>Monday – Saturday 10am to 6pm</p>
                 <a href="tel: 413-568-8333">413-568-8333</a>
                 <p>307 East Main Street, <br/> Westfield, MA 01085</p>
