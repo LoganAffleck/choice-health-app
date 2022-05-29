@@ -1,0 +1,59 @@
+:root{
+  --green: #0b6738;
+  --red: #be1f2f;
+  --brown: #32292f;
+  --tan: #dacdc4;
+}
+
+
+header{
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0px 0px 50px 0px #00000054;
+}
+
+.logo{
+  width: 250px;
+}
+
+.social{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.socialLogo{
+  height: 20px;
+  width: 20px
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links{
+  display: flex;
+  gap: 10px;
+  font-size: large;
+}
+
+main{
+  padding: 20px;
+}
+
+.hero{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
